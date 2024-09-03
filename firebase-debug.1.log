@@ -1,0 +1,63 @@
+[debug] [2024-09-01T15:39:28.350Z] ----------------------------------------------------------------------
+[debug] [2024-09-01T15:39:28.352Z] Command:       /usr/local/bin/firebase /Users/takouajelassi/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2024-09-01T15:39:28.352Z] CLI Version:   13.16.0
+[debug] [2024-09-01T15:39:28.353Z] Platform:      darwin
+[debug] [2024-09-01T15:39:28.353Z] Node Version:  v18.5.0
+[debug] [2024-09-01T15:39:28.354Z] Time:          Sun Sep 01 2024 17:39:28 GMT+0200 (GMT+02:00)
+[debug] [2024-09-01T15:39:28.354Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-01T15:39:28.367Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-01T15:39:28.369Z] > authorizing via signed-in user (takoua.jelassi@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/takouajelassi/Projects/simple-crm
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-09-01T15:39:45.315Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-09-01T15:39:45.819Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-09-01T15:39:45.820Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project simple-crm-32eb2 (Simple-CRM) 
+[info] 
+=== Hosting Setup
+[debug] [2024-09-01T15:39:47.845Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/simple-crm-32eb2 [none]
+[debug] [2024-09-01T15:39:48.102Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/simple-crm-32eb2 200
+[debug] [2024-09-01T15:39:48.102Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/simple-crm-32eb2 {"projectId":"simple-crm-32eb2","projectNumber":"572353680690","displayName":"Simple-CRM","name":"projects/simple-crm-32eb2","resources":{"hostingSite":"simple-crm-32eb2","realtimeDatabaseInstance":"simple-crm-32eb2-default-rtdb"},"state":"ACTIVE","etag":"1_1181faf7-1d6d-486e-a05a-9bc0afc68356"}
+[debug] [2024-09-01T15:40:01.474Z] Error: Cannot find module @rollup/rollup-darwin-x64. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.
+    at requireWithFriendlyError (/Users/takouajelassi/Projects/simple-crm/node_modules/rollup/dist/native.js:59:9)
+    at Object.<anonymous> (/Users/takouajelassi/Projects/simple-crm/node_modules/rollup/dist/native.js:68:76)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Module._compile (pkg/prelude/bootstrap.js:1890:32)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Module._load (node:internal/modules/cjs/loader:834:12)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:170:29)
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-09-01T15:40:01.539Z] Error: Cannot find module @rollup/rollup-darwin-x64. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.
+    at requireWithFriendlyError (/Users/takouajelassi/Projects/simple-crm/node_modules/rollup/dist/native.js:59:9)
+    at Object.<anonymous> (/Users/takouajelassi/Projects/simple-crm/node_modules/rollup/dist/native.js:68:76)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Module._compile (pkg/prelude/bootstrap.js:1890:32)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Module._load (node:internal/modules/cjs/loader:834:12)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:170:29)
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+[error] 
+[error] Error: An unexpected error has occurred.
